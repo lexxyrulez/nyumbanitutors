@@ -11,8 +11,7 @@ jobs:
     - name: Sync files
       uses: SamKirkland/FTP-Deploy-Action@4.3.0
       with:
-        server: ftp.samkirkland.com
-        username: myFtpUserName
+        server: ftp.gikafrica.website
+        username:  gikatgib@nyumbanitutors.airprint.co.tz
         password: ${{ secrets.password }}
-        protocol: ftps
-        port: 21
+       
